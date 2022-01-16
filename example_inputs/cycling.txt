@@ -1,0 +1,10 @@
+# You can fill this file with the objective function values and the constraint equations.
+# The lines with "#" or whitespace at the start are ignored by the program.
+# The rest of the format is very strict. You must follow it or the program will crash.
+
+# Objective function coefficients (C)
+0 0 0 0.75 -20 0.5 -6
+# Constraints (A and b)
+1 0 0 0.25 -8 -1 9 = 0
+0 1 0 0.5 -12 -0.5 3 = 0
+0 0 1 0 0 1 0 = 1
